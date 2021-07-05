@@ -4,21 +4,6 @@
  * @return {number}
  */
 const searchInsert = (nums, target) => {
-  // for (let i = 0; i < nums.length; i++) {
-  //   if (nums[i] === target) {
-  //     return i;
-  //   }
-  //   if ((nums[i] < target) && (nums[i + 1] > target)) {
-  //     return i + 1;
-  //   }
-  //   if ((nums[i] < target) && (i === nums.length - 1)) {
-  //     return i + 1;
-  //   }
-  //   if (nums[0] > target) {
-  //     return 0;
-  //   }
-  // }
-
   let left = 0;
   let right = nums.length;
   while (right > left) {

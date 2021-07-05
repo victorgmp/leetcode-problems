@@ -18,7 +18,6 @@ const romanToInt = (s) => {
   for (let i = 0; i < s.length; i++) {
     const currentInt = map[s.charAt(i)];
     const nextInt = map[s.charAt(i + 1)];
-    console.log('hola');
 
     if (nextInt) {
       if (currentInt >= nextInt) {

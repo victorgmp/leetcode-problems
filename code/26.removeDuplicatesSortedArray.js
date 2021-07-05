@@ -14,7 +14,6 @@ const removeDuplicates = (nums) => {
       nums[pointer] = nums[i];
     }
   }
-  console.log(nums);
   return pointer + 1;
 };
 
