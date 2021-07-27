@@ -11,8 +11,8 @@ const mySqrt = (x) => {
   }
 
   while (right > left) {
-    // const mid = left + Math.floor((right - left) / 2);
-    const mid = Math.floor((left + right) / 2);
+    const mid = left + Math.floor((right - left) / 2);
+    // const mid = Math.floor((left + right) / 2);
 
     if (mid * mid === x) {
       return mid;
